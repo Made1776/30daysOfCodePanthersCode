@@ -35,3 +35,11 @@ def isValid(cardNumber):
     return True
   else:
     return False
+
+def test(cardNumber):
+  if isValid(cardNumber):
+    print('Credit card number IS valid.')
+    print('Proceed, agent.')
+  else:
+    print('Credit card number IS NOT valid.')
+    print('Abort, agent!')
